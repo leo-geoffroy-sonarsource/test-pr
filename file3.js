@@ -1,15 +1,21 @@
 if(3==3){
 console.log("hello");
 }
-function isPrime(num) {
-  if (num <= 1) return false;
-  if (num <= 3) return true;
 
-  if (num % 2 === 0 || num % 3 === 0) return false;
-
-  for (let i = 5; i * i <= num; i += 6) {
-    if (num % i === 0 || num % (i + 2) === 0) return false;
+function makeCoffee(type) {
+  switch (type) {
+    case 'espresso':
+      console.log('Making an espresso...');
+      break;
+    case 'latte':
+      console.log('Making a latte...');
+      break;
+    case 'cappuccino':
+      console.log('Making a cappuccino...');
+      break;
+    default:
+      console.log('Unknown coffee type');
   }
-
-  return true;
 }
+
+makeCoffee('latte');
