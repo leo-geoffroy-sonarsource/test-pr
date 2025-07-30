@@ -1,0 +1,6 @@
+projectKey=leo-geoffroy-sonarsource_test-repo-pr_c67a80ea-1c7d-4217-988b-d4dade408a17
+serverUrl=https://lge.eu.ngrok.io
+serverVersion=2025.1-SNAPSHOT
+dashboardUrl=https://lge.eu.ngrok.io/dashboard?id=leo-geoffroy-sonarsource_test-repo-pr_c67a80ea-1c7d-4217-988b-d4dade408a17
+ceTaskId=249c66f5-41c8-44f0-bd28-29c0438e5d49
+ceTaskUrl=https://lge.eu.ngrok.io/api/ce/task?id=249c66f5-41c8-44f0-bd28-29c0438e5d49
